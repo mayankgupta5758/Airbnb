@@ -1,0 +1,115 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* footer */
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.f-info-socials {
+    font-size: 1.3rem;
+    margin-right: 2rem;
+}
+
+.f-info-socials i {
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.f-info {
+    height: 6rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+/* cards */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* card Overlay */
+
+.card-img-overlay {
+    opacity: 0;
+
+    &:hover {
+        opacity: 0.2;
+        background-color: white;
+    }
+}
+
+/* edit Page */
+
+.btn {
+    background-color: rgb(112, 154, 135) !important;
+    border: none;
+}
+
+/* show Page */
+
+.show-img {
+    height: 30vh;
+}
+
+.cc{
+    display: flex;
+    /* gap: 13px; */
+}
+
+
+.cd {
+    border: none !important;
+}
